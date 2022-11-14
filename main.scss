@@ -1,0 +1,76 @@
+*, *::after, *::before{ 
+    box-sizing: border-box;  
+}
+body{
+    max-width: 1920px;
+}
+
+h1{
+    color: #FFCCBC;
+}
+p{
+    color: #FFCCBC;
+}
+.container-fluid{
+    background-color: #0B4141;
+    display: flex;
+    align-items: center;
+    height: 770px;
+}
+
+.autoimg{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+
+}
+.button{
+    border-radius: 20px;
+    background-color: #0B4141;
+    border: solid 1px #FFCCBC;
+    color: #FFCCBC;
+    padding: 9px;
+}
+.container{ 
+    display: flex;
+    height: 500px; 
+    align-items: center;
+    margin-top: 50px;
+} 
+.color{ 
+    color: black; 
+     
+} 
+.img{  
+    width: 100%;  
+    height: 80%; 
+    object-fit: cover;  
+    max-width: 400px; 
+}  
+.container-sm{
+    margin-top: 100px;
+    text-align: center;
+   
+}
+.orangetext{
+    font-size: 80px;
+    text-align: center;
+    color: #FFCCBC;
+}
+.lasttext{
+   text-align: center;
+  margin-top: 50px;
+color: #0B4141;
+}
+.volk{
+    width: 100%;
+
+}
+.navbar{
+    background-color: #0B4141;
+}
+@media screen and (max-width:992px ){ 
+    .container-xl {
+        display: none; 
+    } 
+ }
